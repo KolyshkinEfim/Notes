@@ -1,35 +1,35 @@
 ﻿@model Note
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Update";
 }
 
-<form method="post">
+<form method="post" asp-action="Update">
     <div class="border p-3 mt-4">
         <div class="row pb-2">
             <h2 class="text-primary">
-                Create note
+                Edit note
             </h2>
         </div>
         <div asp-validation-summary="All"></div>
         <div class="mb-3">
             <label asp-for="Name"></label>
-            <input asp-for="Name" class="form-control"/>
+            <input asp-for="Name" class="form-control" />
             <span asp-validation-for="Name" class="text-danger"></span>
         </div>
         <div class="mb-3">
-            <label asp-for="Description" > </label>
+            <label asp-for="Description"> </label>
             <input asp-for="Description" class="form-control" />
             <span asp-validation-for="Description" class="text-danger"></span>
         </div>
-        <button type="submit" class="btn btn-primary btn-success" style="width:100px">Create</button>
+        <button type="submit" class="btn btn-warning" style="width:150px">Save changes</button>
         <a asp-controller="Note" asp-action="Index" class="btn btn-secondary" style="width:50px">Back</a>
     </div>
 </form>
 
 @section Scripts
-{
+    {
     @{
-        <partial name="_ValidationScriptsPartial"/>
+        <partial name="_ValidationScriptsPartial" />
     }
 }
