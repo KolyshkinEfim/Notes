@@ -12,8 +12,8 @@ using learnASP.NET_CORE_mvc.Data;
 namespace learnASP.NETCOREmvc.Migrations
 {
     [DbContext(typeof(dbContext))]
-    [Migration("20221203182651_AddCategoryToDatabase")]
-    partial class AddCategoryToDatabase
+    [Migration("20221205135209_AddNotesToDB")]
+    partial class AddNotesToDB
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -25,7 +25,7 @@ namespace learnASP.NETCOREmvc.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("learnASP.NET_CORE_mvc.Models.Category", b =>
+            modelBuilder.Entity("learnASP.NET_CORE_mvc.Models.Note", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -36,8 +36,9 @@ namespace learnASP.NETCOREmvc.Migrations
                     b.Property<DateTime>("CreationDateTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("DisplayOrder")
-                        .HasColumnType("int");
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -45,7 +46,7 @@ namespace learnASP.NETCOREmvc.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Notes");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "39ZE6kJVwThy6syLNkVqhvsEMxWBGHEAK7YjvPiiz8c=",
+  "Hash": "ouyVSNqUUP5bBiS3ScNviT+y8EG+38WPZppww4iwIl0=",
   "Source": "learnASP.NET_CORE_mvc",
   "BasePath": "_content/learnASP.NET_CORE_mvc",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "Y:\\work\\Notes\\Notes\\learnASP.NET_CORE_mvc\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\learnASP.NET_CORE_mvc.bundle.scp.css"
+    },
+    {
+      "Identity": "Y:\\work\\Notes\\Notes\\learnASP.NET_CORE_mvc\\wwwroot\\css\\bootswatch.css",
+      "SourceId": "learnASP.NET_CORE_mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "Y:\\work\\Notes\\Notes\\learnASP.NET_CORE_mvc\\wwwroot\\",
+      "BasePath": "_content/learnASP.NET_CORE_mvc",
+      "RelativePath": "css/bootswatch.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootswatch.css"
     },
     {
       "Identity": "Y:\\work\\Notes\\Notes\\learnASP.NET_CORE_mvc\\wwwroot\\css\\site.css",

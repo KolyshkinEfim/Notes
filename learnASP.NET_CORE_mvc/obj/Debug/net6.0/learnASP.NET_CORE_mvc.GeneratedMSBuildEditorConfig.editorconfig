@@ -16,20 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = Y:\work\Notes\Notes\learnASP.NET_CORE_mvc
 build_property._RazorSourceGeneratorDebug = 
 
-[Y:/work/Notes/Notes/learnASP.NET_CORE_mvc/Views/Category/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [Y:/work/Notes/Notes/learnASP.NET_CORE_mvc/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[Y:/work/Notes/Notes/learnASP.NET_CORE_mvc/Views/Home/Info.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmZvLmNzaHRtbA==
+[Y:/work/Notes/Notes/learnASP.NET_CORE_mvc/Views/Note/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90ZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[Y:/work/Notes/Notes/learnASP.NET_CORE_mvc/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[Y:/work/Notes/Notes/learnASP.NET_CORE_mvc/Views/Note/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Y:/work/Notes/Notes/learnASP.NET_CORE_mvc/Views/Note/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90ZVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [Y:/work/Notes/Notes/learnASP.NET_CORE_mvc/Views/Shared/Error.cshtml]

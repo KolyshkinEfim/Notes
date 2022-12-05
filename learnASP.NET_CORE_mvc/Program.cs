@@ -13,6 +13,7 @@ internal class Program
         builder.Services.AddDbContext<dbContext>(options => options.UseSqlServer(
             builder.Configuration.GetConnectionString("DefaultConnection")
             ));
+        
 
         var app = builder.Build();
 
